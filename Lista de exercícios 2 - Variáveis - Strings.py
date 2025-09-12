@@ -15,9 +15,9 @@ for i in (0,tam -1):
         if TNF[i+1] == "G":
             print(i)
 
-for i in (0, tam -1)
-    if TNF[i] == "R"
-        if TNF[i+1] =="r"
+for i in (0, tam -1):
+    if TNF[i] == "R":
+        if TNF[i+1] =="r":
             print(i)
 
 #d- Retorne os 100 primeiros aminoácidos da sequência.
@@ -44,7 +44,7 @@ maiusculo1 = text.title()
 print(maiusculo1)
 
 #d- Transforme as letras maiúsculas em minúsculas e vice-versa.
-letrasmm = text.
+letrasmm = text
 
 #3
 insulin_signal = "MALWMRLLPLLALLALWGPDPAAA"
@@ -60,7 +60,8 @@ SequenciaFinal = "MALWMRLLPPDPAAA"
 print(insulin_signal + SequenciaFinal)
 
 #d- Substitua o trecho "DPAAA" por “LLALL”.
-
+substituicao = (insulin_signal.replace("DPAAA", "LLALL"))
+print(substituicao)
 
 #4- Com base na sequência de DNA GATGGAACTTGACGTAAACCTATATT retorne a sequência de RNA correspondente sendo a mesma GAUGGAACUUGACGUAAACCUAUAUU
 DNA = "GATGGAACTTGACGTAAACCTATATT"
