@@ -9,10 +9,23 @@ leucina= TNF.count("LL")
 print(leucina)
 
 #c- Encontre na sequência as posições ocupadas por duas glicinas (GG) e duas argininas (RR).
-glicina= TNF
+tam = len(TNF)
+for i in (0,tam -1):
+    if TNF[i] == "G":
+        if TNF[i+1] == "G":
+            print(i)
+
+for i in (0, tam -1)
+    if TNF[i] == "R"
+        if TNF[i+1] =="r"
+            print(i)
 
 #d- Retorne os 100 primeiros aminoácidos da sequência.
+print(TNF[0:99])
+
 #e- Substitua o trecho da sequência com a ocorrência de 3 serinas e 1 arginina (SSSR) por alaninas.
+
+
 #f- Quebre a sequência no local onde a substituição foi realizada.
 
 #Exercicio 2
@@ -37,12 +50,17 @@ letrasmm = text.
 insulin_signal = "MALWMRLLPLLALLALWGPDPAAA"
 
 #a- Retorne o tamanho da sequência apresentada.
+print(len(insulin_signal))
 
 #b- Quebre a sequência no trecho “LLALLALWG".
 
+
 #c- Concatene as sequências resultantes obtendo a seguinte sequência final MALWMRLLPPDPAAA.
+SequenciaFinal = "MALWMRLLPPDPAAA"
+print(insulin_signal + SequenciaFinal)
 
 #d- Substitua o trecho "DPAAA" por “LLALL”.
+
 
 #4- Com base na sequência de DNA GATGGAACTTGACGTAAACCTATATT retorne a sequência de RNA correspondente sendo a mesma GAUGGAACUUGACGUAAACCUAUAUU
 DNA = "GATGGAACTTGACGTAAACCTATATT"
