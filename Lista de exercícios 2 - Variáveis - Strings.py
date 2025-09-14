@@ -66,3 +66,5 @@ print(substituicao)
 
 #4- Com base na sequência de DNA GATGGAACTTGACGTAAACCTATATT retorne a sequência de RNA correspondente sendo a mesma GAUGGAACUUGACGUAAACCUAUAUU
 DNA = "GATGGAACTTGACGTAAACCTATATT"
+RNA = DNA.replace("G", "C")("A", "U")("C", "G")("U", "A")
+print(RNA)
