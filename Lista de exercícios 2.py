@@ -46,22 +46,19 @@ letrasmm = text.swapcase()
 print(f"letra d:\n{letrasmm}")
 
 #Exercício 3
-insulin_signal = "MALWMRLLPLLALLALWGPDPAAA"
 print("Exercício 3")
+
+insulin_signal = "MALWMRLLPLLALLALWGPDPAAA"
 
 #a- Retorne o tamanho da sequência apresentada.
 print(f"letra A:\n{len(insulin_signal)}")
 
 #b- Quebre a sequência no trecho “LLALLALWG".
-
-#Não entendi o que foi pedido aqui nem na outra:
-OutraSequencia = insulin_signal.split("LLALLAWG")
-print(f"letra b:\n{OutraSequencia}")
-MaisUmaSequencia = "LLALLAWG"
+print(f"letra b:\n{insulin_signal.split("LLALLALWG")}")
 
 #c- Concatene as sequências resultantes obtendo a seguinte sequência final MALWMRLLPPDPAAA.
-SequenciaFinal = "MALWMRLLPPDPAAA"
-print(f"letra c:\n{insulin_signal + SequenciaFinal}")
+SequenciaFinal =
+print(f"letra c:\n{SequenciaFinal}")
 
 #d- Substitua o trecho "DPAAA" por “LLALL”.
 substituicao = (insulin_signal.replace("DPAAA", "LLALL"))

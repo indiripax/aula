@@ -37,6 +37,7 @@ if not "AAY66816.1" in NCBI:
 print(F"Letra C:\n{NCBI[10]}")
 
 #d) Insira os identificadores nas posições indicadas e imprima a lista final: AAY66967.1 posição 11; AAY66880.1 posição 21; AAY66874.1 posição 16
+#Aqui tem uma pegadinha, se adicionar o valor na posição 16 antes da 21, se não fizer em ordem crescente, a posição 21 vira a 22
 novaNCBI = NCBI.copy()
 novaNCBI.insert(11, "AAY66967.1")
 novaNCBI.insert(16, "AAY66874.1")
@@ -57,7 +58,7 @@ Docking = [-695.9, -884.3, -658.2, -917.9, -799.8, -842.1, -618.6, -726.6, -652.
 print(f"letra A:\n{Docking}")
 
 #b- Obtenha e imprima o tamanho da lista.
-print(f"Lera B:\b{len(Docking)}")
+print(f"Letra B:\b{len(Docking)}")
 
 #c- Retorne o melhor score, considerando que o melhor modelo é aquele que apresenta a menor energia.
 MelhorScore = sorted(Docking)[0]
