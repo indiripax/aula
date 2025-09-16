@@ -1,6 +1,6 @@
 #Em um experimento de docking molecular utilizando três ferramentas diferentes, foram obtidos os três três conjuntos de RMSD da tabela abaixo. Considerando os valores desta tabela, crie os 3 conjuntos usando variáveis do tipo conjunto em Python.
 1.9, 1.8, 5.7, 1.6, 5.8, 1.7, 9.6, 5.9, 9.5, 6.5, 6.2, 1.1, 4.4, 3.5, 2.9, 4.7, 4.6, 5.2, 5.3, 4.7, 3.6, 6.2, 7.1, 7, 5.6, 5.7, 3.4, 3.3, 2.1, 3.8, 3.9, 5, 5.1, 1.9, 9.5, 1.0, 1.3, 5.4, 2.2, 3.3, 5.1, 3, 3.7, 9.1, 8.8, 8.5, 2, 4.1, 6.1, 4.9, 1.1, 0.5, 0.8, 3.2, 6.9, 9.3, 9.5
-#"A seguir, codifique em Python as seguintes tarefas: 
+#A seguir, codifique em Python as seguintes tarefas: 
 #a) Verifique as diferenças entre os conjuntos (1,2) (1,3) e (2,3)  
 #b) Retorne as intersecções entre (1,2) (1,3) e (2,3)  
 #c) Insira todos os elementos do conjunto 2 e 3 no conjunto 1 
