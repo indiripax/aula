@@ -1,15 +1,17 @@
 #1
 linguagem = "python"
-print(linguagem)
+print(f"1:\n"linguagem")
 
 #2
 a = 1500
 b = 335
+print("2:")
 print(a+b)
 print(a*b)
 print(a-b)
 
 #3
+print("3:)
 a1 = "Marie"
 b1 = " Currie "
 c1 = "!!!"
@@ -29,4 +31,5 @@ print(pi)
 #7
 pi = 3.1415
   print(pi)
+
 #aqui, ha a diferenca de versoes do python, em uma versao, a que esta no laboratorio onde temos aula funciona, a do collab nao
