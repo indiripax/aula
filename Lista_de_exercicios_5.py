@@ -57,9 +57,9 @@ print(f"diferença {A.difference(B)}")
 #b) Verifique se o conjunto A e B são disjuntos ao conjunto D
 print("letra b:")
 if A.isdisjoint(D):
-    print("A e B são disjuntos")
+    print("A e D são disjuntos")
 else:
-    print("A e B não são disjuntos")
+    print("A e D não são disjuntos")
 
 if B.isdisjoint(D):
     print("B e D são disjuntos")
