@@ -18,19 +18,21 @@ CA 108.477 100.389 69.362
 C 109.513 101.011 68.450
 O 110.667 100.572 68.425
 '''
-resultado = 
+resultado =
 
 #2. Em biologia molecular, o conteúdo GC (guanina e citosina) é o percentual de bases nitrogenadas em uma
 #molécula de DNA ou RNA que são guanina ou citosina (dentre as quatro bases possíveis). Para as seguintes
 #sequências calcule usando os operadores vistos em aula o percentual de conteúdo GC, imprimindo os resultados:
-Sequência_A= "ATGATCTCGTAATTAACCGGAATTTTGGGCC"
+print("Exercício 2:")
+
+Sequência_A = "ATGATCTCGTAATTAACCGGAATTTTGGGCC"
 #Saída esperada: 41.93
 print("Sequencia A")
-percentualA = (Sequência_A.count("GC") / len(Sequência_A)) * 100
-print(f"Percentual: {percentualA}")
+percentual = ((Sequência_A.count("G") + Sequência_A.count("C")) / len(Sequência_A)) * 100
+print(f"Percentual: {percentual}")
 
-Sequência_B = "GGCCTTAAGTTTAACCCGGAATTTAAAGGCCCCAAA"
+Sequência_B= "GGCCTTAAGTTTAACCCGGAATTTAAAGGCCCCAAA"
 #Saída esperada: 44.44
 print("Sequencia B")
-PercentualB = (Sequência_B.count("GC") / len(Sequência_B)) * 100
-print(f"percentual B {PercentualB}")
+percentuals = ((Sequência_B.count("G") + Sequência_B.count("C")) / len(Sequência_B)) * 100
+print(f"Percentual: {percentuals}")

@@ -1,12 +1,14 @@
 #1. Escreva um programa que calcule e escreva a tabela de graus Centígrados em função dos graus Farenheit que variem entre 1 e 150 de 1 em 1 conforme a fórmula a seguir
 
-#2. Utilizando as estruturas de repetição, verifique se as seguintes sequências são uma sequência de DNA {A,G, T, C},
-#RNA {U, C, A, G},
-#PROTEÍNA {A, C, D, E, F, G, H, I, K, L, M, N, P, Q, R, S, T, V, W, Y} ou nenhuma delas 
-#(nesse caso, imprima as letras que não fazem parte do alfabeto):
-ATCDLASKWNWNHTLCAAHCIARRYRGGYCNSKAVCVCRN
-TATTAACCGGGTTTAAACTAGCATGCATGATTAACCAGTACATCTTTT
-ATCBDLASKWXWNHTLCAAHCIARRYRGGYCNSJAVCVCRN
+#2. Utilizando as estruturas de repetição, verifique se as seguintes sequências são uma sequência de 
+DNA = {A,G, T, C}
+RNA = {U, C, A, G}
+PROTEÍNA = {A, C, D, E, F, G, H, I, K, L, M, N, P, Q, R, S, T, V, W, Y} 
+
+#ou nenhuma delas (nesse caso, imprima as letras que não fazem parte do alfabeto):
+s1 = "ATCDLASKWNWNHTLCAAHCIARRYRGGYCNSKAVCVCRN"
+s2 = "TATTAACCGGGTTTAAACTAGCATGCATGATTAACCAGTACATCTTTT"
+s3 = "ATCBDLASKWXWNHTLCAAHCIARRYRGGYCNSJAVCVCRN"
 
 #3. Utilizando as estruturas de repetição, gere e imprima a sequência complemento reverso da seguinte sequência de DNA:
 TATTAACCGGGTTTAAACTAGCATGCATGATTAACCAGTACATCTTTT
