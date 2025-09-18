@@ -5,16 +5,19 @@
 #entre elas segundo a equação:
 
 #Equação 1 - RMSD (Considere N=4 que é o número de átomos).
+'''
 ATOMO x y z
 N 108.304 100.827 67.992
 CA 108.477 100.389 69.362
 C 109.907 100.555 69.817
 O 110.821 100.799 69.027
+
 ATOMO x y z
 N 107.670 101.359 70.074
 CA 108.477 100.389 69.362
 C 109.513 101.011 68.450
 O 110.667 100.572 68.425
+'''
 
 #2. Em biologia molecular, o conteúdo GC (guanina e citosina) é o percentual de bases nitrogenadas em uma
 #molécula de DNA ou RNA que são guanina ou citosina (dentre as quatro bases possíveis). Para as seguintes
