@@ -27,6 +27,8 @@ if len(Sequência_B) > media:
     print(f"Sequencia B é maior que a média")
 if len(Sequência_C) > media:
     print(f"Sequencia C é maior que a média")
+else:
+    print("Nenhuma sequencia é maior que a média")
 
 #3. Imprima apenas as sequências que possuam pelo menos uma histidina (H) e nenhuma prolina (P).
 print("3:")
