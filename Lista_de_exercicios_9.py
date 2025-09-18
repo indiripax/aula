@@ -1,4 +1,5 @@
 #1. Escreva um programa que calcule e escreva a tabela de graus Centígrados em função dos graus Farenheit que variem entre 1 e 150 de 1 em 1 conforme a fórmula a seguir
+Celcios = 5/9*(F - 32)
 
 #2. Utilizando as estruturas de repetição, verifique se as seguintes sequências são uma sequência de 
 DNA = {A,G, T, C}
