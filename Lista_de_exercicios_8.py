@@ -23,18 +23,22 @@ media = (len(Sequência_A) + len(Sequência_B) + len(Sequência_C)) / 3
 
 if len(Sequência_A) > media:
     print(F"Sequência A é maior que a média")
+if len(Sequência_B) > media:
+    print(f"Sequencia B é maior que a média")
+if len(Sequência_C) > media:
+    print(f"Sequencia C é maior que a média")
 
 #3. Imprima apenas as sequências que possuam pelo menos uma histidina (H) e nenhuma prolina (P).
 print("3:")
 
 if "H" in Sequência_A and "P" not in Sequência_A:
     print(f"Sequência_A")
-
 if "H" in Sequência_B and "P" not in Sequência_B:
     print(f"Sequência_B")
-
 if "H" in Sequência_C and "P" not in Sequência_C:
     print(f"Sequência_C")
+else:
+    print("nenhuma das sequencias correspondem aos requisitos")
 
 #4. Identifique e imprima a maior dentre as três sequências a seguir.
 print("4:")

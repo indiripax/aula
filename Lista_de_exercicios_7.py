@@ -18,7 +18,6 @@ CA 108.477 100.389 69.362
 C 109.513 101.011 68.450
 O 110.667 100.572 68.425
 '''
-resultado 
 
 #2. Em biologia molecular, o conteúdo GC (guanina e citosina) é o percentual de bases nitrogenadas em uma
 #molécula de DNA ou RNA que são guanina ou citosina (dentre as quatro bases possíveis). Para as seguintes
