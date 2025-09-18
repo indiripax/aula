@@ -31,5 +31,5 @@ print(f"Percentual: {percentualA}")
 Sequência_B = "GGCCTTAAGTTTAACCCGGAATTTAAAGGCCCCAAA"
 #Saída esperada: 44.44
 print("Sequencia B")
-PercentualB = ((Sequência_B.count("G"))) + Sequência_B.count("C") / len(Sequência_B)) * 100
+PercentualB = ((Sequência_B.count("G")) + Sequência_B.count("C") / len(Sequência_B)) * 100
 print(f"percentual B {PercentualB}")
