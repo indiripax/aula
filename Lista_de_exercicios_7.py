@@ -5,19 +5,20 @@
 #entre elas segundo a equação:
 
 #Equação 1 - RMSD (Considere N=4 que é o número de átomos).
-'''
-ATOMO x y z
-N 108.304 100.827 67.992
-CA 108.477 100.389 69.362
-C 109.907 100.555 69.817
-O 110.821 100.799 69.027
 
-ATOMO x y z
-N 107.670 101.359 70.074
-CA 108.477 100.389 69.362
-C 109.513 101.011 68.450
-O 110.667 100.572 68.425
-'''
+Glicina_1 = { "N":(108.304, 100.827, 67.992), "CA":(108.477, 100.389, 69.362), "C":(109.907, 100.555, 69.817), "O":(110.821, 100.799, 69.027)}
+
+Glicina_2 = { "N":(107.670, 101.359, 70.074), "CA":(108.477, 100.389, 69.362), "C":(109.513, 101.011, 68.450), "O":(110.667, 100.572, 68.425)}
+
+print("Exercício 1")
+
+soma = 0
+
+for key in Glicina_1:
+    soma += (Glicina_1[key][0]-Glicina_2[key][0])**2 + (Glicina_1[key][1]-Glicina_2[key][1])**2 + (Glicina_1[key][2]-Glicina_2[key][2])**2
+    
+RMSD = ((1/len(Glicina_1))* soma )**0.5
+print(f"RMSD= {RMSD}")
 
 #2. Em biologia molecular, o conteúdo GC (guanina e citosina) é o percentual de bases nitrogenadas em uma
 #molécula de DNA ou RNA que são guanina ou citosina (dentre as quatro bases possíveis). Para as seguintes
