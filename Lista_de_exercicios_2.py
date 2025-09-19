@@ -49,7 +49,6 @@ print(f"letra d:\n{letrasmm}")
 print("Exercício 3")
 
 insulin_signal = "MALWMRLLPLLALLALWGPDPAAA"
-insulin_signal_split = insulin_signal.split("LLALLALWG")
 
 #a- Retorne o tamanho da sequência apresentada.
 print(f"letra A:\n{len(insulin_signal)}")
@@ -58,7 +57,14 @@ print(f"letra A:\n{len(insulin_signal)}")
 print(f"letra b:\n{insulin_signal.split("LLALLALWG")}")
 
 #c- Concatene as sequências resultantes obtendo a seguinte sequência final MALWMRLLPPDPAAA.
+
+#aqui há duas maneiras de se fazer:
+#da maneira onde eu crio a variável de split:
+insulin_signal_split = insulin_signal.split("LLALLALWG")
+#e rodando:
 # SequenciaFinal = insulin_signal.split("LLALLALWG")[0]+insulin_signal.split("LLALLALWG")[1]
+
+#ou da seguinte maneira:
 SequenciaFinal = insulin_signal_split[0] + insulin_signal_split[1]
 print(f"letra c:\n{SequenciaFinal}")
 

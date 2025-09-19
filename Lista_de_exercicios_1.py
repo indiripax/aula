@@ -1,17 +1,21 @@
 #1
+
 linguagem = "python"
-print(f"1:\n"linguagem")
+print(f"1:\n{linguagem}")
+
+#print de variavel
 
 #2
 a = 1500
 b = 335
-print("2:")
+
 print(a+b)
 print(a*b)
 print(a-b)
 
+#aqui, vemos o python fazendo cauculos matemáticos
+
 #3
-print("3:)
 a1 = "Marie"
 b1 = " Currie "
 c1 = "!!!"
