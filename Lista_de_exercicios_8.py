@@ -5,7 +5,7 @@ Sequencia_B = "KPAAHLIGDPSKQNSLLWRANTDRAFLQDGFSLSNNSLLVPTSGIYFVYSQVVFSGKAYSPKATS
 Sequencia_C = "CPQGKYIHPQNNSICCTKCHKGTYLYNDCPGPGQDTDCRECESGSFTASENHLRHCLSCSKCRKEMGQVEISSCTVDRDTVCGCR"
 
 #1. Imprima apenas as sequências com 80 ou mais aminoácidos.
-print("1:")
+print("Exercício 1:")
 
 if len(Sequencia_A) >= 80:
     print(f"Sequência_A")
@@ -17,7 +17,7 @@ if len(Sequencia_C) >= 80:
     print(f"Sequência_C")
 
 #2. Imprima apenas as sequências cujo tamanho seja maior que a média de tamanho das sequências.
-print("2:")
+print("Exercício 2:")
 
 media = (len(Sequencia_A) + len(Sequencia_B) + len(Sequencia_C)) / 3
 
@@ -31,7 +31,7 @@ else:
     print("Nenhuma sequencia é maior que a média")
 
 #3. Imprima apenas as sequências que possuam pelo menos uma histidina (H) e nenhuma prolina (P).
-print("3:")
+print("Exercício 3:")
 
 if "H" in Sequencia_A and "P" not in Sequencia_A:
     print(f"Sequência_A")
@@ -43,11 +43,7 @@ else:
     print("nenhuma das sequencias correspondem aos requisitos")
 
 #4. Identifique e imprima a maior dentre as três sequências a seguir.
-print("4:")
-
-AG = len(Sequencia_A)
-BG = len(Sequencia_B)
-CG = len(Sequencia_C)
+print("Exercício 4:")
 
 if len(Sequencia_A) > len(Sequencia_B) and len(Sequencia_A) > len(Sequencia_C):
     print("Sequência A")
@@ -58,5 +54,7 @@ else:
 
 
 #5. Imprima as três sequências em ordem crescente de tamanho.
-print("5:")
-
+print("Exercício 5:")
+sequencias = [Sequencia_A, Sequencia_B, Sequencia_C]
+ordem = sorted(sequencias, key=len)
+print(ordem)
