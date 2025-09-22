@@ -29,10 +29,10 @@ Sequência_A = "ATGATCTCGTAATTAACCGGAATTTTGGGCC"
 #Saída esperada: 41.93
 print("Sequencia A")
 percentual = ((Sequência_A.count("G") + Sequência_A.count("C")) / len(Sequência_A)) * 100
-print(f"Percentual: {percentual}")
+print(f"Percentual: {percentual:.2f}")
 
 Sequência_B= "GGCCTTAAGTTTAACCCGGAATTTAAAGGCCCCAAA"
 #Saída esperada: 44.44
 print("Sequencia B")
 percentuals = ((Sequência_B.count("G") + Sequência_B.count("C")) / len(Sequência_B)) * 100
-print(f"Percentual: {percentuals}")
+print(f"Percentual: {percentuals:.2f}")
