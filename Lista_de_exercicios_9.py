@@ -74,6 +74,14 @@ print(f"A massa molar da sequência é {soma:.5f}")
 
 #7. Considerando a Tabela 2 que contem dados de defensinas de plantas, obtenha / calcule e imprima:
 
+pdb = {"3PSM":(1, "A,B", "UniProt", "Q6B519", "KTCENLADTFRGPCFTDGSCDDHCKNKEHLIKGRCRDDFRCWCTRNC", 47, "polipeptide(L)", 5.511),\
+    "2NY9": (1, "X", "Uniprot", "Q17027", "ATCDLASGFGVGSSLCAAHCLVKGYRGGYCKNKICHCRDKF", 41, "polypeptide(L)", 4.349),/
+    "2NY8": (1, "X", "Uniprot", "Q17027", "ATCDLASGFGVGSSLCAAHCIARRYRGGYCNSKAVCVCRN", 40, "polypeptide(L)", 4.148),/
+    "2NZ3": (1, "A", "UniProt", "Q17027", "ATCDLASIFNVNHALCAAHCIARRYRGGYCNSKAVCVCRN", 40, "polypeptide(L)", 4.353),/
+    "2E3G": (1, "A", "UniPort", "Q17027", "ATCDLASKWNWNHTLCAAHCIARRYRGGYCNSKAVCVCRN", 40, "polypeptide(L)", 4.525),/
+    "2E3F": (1, "A", "UniPort", "Q17027", "ATCDLASFSSQWVTPNDSLCAAHCIARRYRGGYCNGKRVCVCR", 43, "polypeptide(L)", 4.747)/
+    "2E3E": (1, "A", "UniPort", "Q17027", "ATCDLASFSSQWVTPNDSLCAAHCLVKGYRGGYCKNKICHCRDKF", 45, "polypeptide(L)", 5.007)}
+
 #A) a menor sequência e seu comprimento
 #B) a maior sequência e seu comprimento
 #C) a média entre os comprimentos das sequências
