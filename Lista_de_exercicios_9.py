@@ -88,3 +88,6 @@ pdb = {"3PSM":(1, "A,B", "UniProt", "Q6B519", "KTCENLADTFRGPCFTDGSCDDHCKNKEHLIKG
 #D) a mediana entre os comprimentos das sequências
 
 #8. Considerando as assinaturas moleculares (fingerprints) hipotéticas das tabelas abaixo, calcule a distância de Tanimoto
+
+
+batata
