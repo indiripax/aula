@@ -84,9 +84,27 @@ print("a:")
 
 #B) a maior sequência e seu comprimento
 
+
+
+
 #C) a média entre os comprimentos das sequências
+print("c:")
+
+soma = 0
+for key in pdb:
+    soma += pdb[key][5]
+media = soma/len(pdb)
+
+print(f"A média é {media}")
 
 #D) a mediana entre os comprimentos das sequências
+print("d:")
+
+tamanho = 0
+for key in pdb:
+    tamanho = pdb[key][5]
+
+print(tamanho)
 
 #8. Considerando as assinaturas moleculares (fingerprints) hipotéticas das tabelas abaixo, calcule a distância de Tanimoto
 
