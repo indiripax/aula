@@ -123,7 +123,34 @@ mediana = tamanho[index_mediana]
 print(mediana)
 
 #8. Considerando as assinaturas moleculares (fingerprints) hipotéticas das tabelas abaixo, calcule a distância de Tanimoto
+print("Exercicio 8:")
 
-fingerprint_1 = {0,0,1,0,0,1,1,0,1,1,0,1}
-fingerprint_2 = {0,1,0,0,1,1,0,1,1,0,0,0}
+fingerprint_1 = [0,0,1,0,0,1,1,0,1,1,0,1]
+fingerprint_2 = [0,1,0,0,1,1,0,1,1,0,0,0]
 
+intercessao = []
+for i in range(len(fingerprint_1)):
+    if fingerprint_1[i] == 0 and fingerprint_2[i] == 0:
+        intercessao.append(0)
+    elif fingerprint_1[i] == 0 and fingerprint_2[i] == 1:
+        intercessao.append(0)
+    elif fingerprint_1[i] == 1 and fingerprint_2[i] == 0:
+        intercessao.append(0)
+    elif fingerprint_1[i] == 1 and fingerprint_2[i] == 1:
+        intercessao.append(1)
+soma_intercessao = sum(intercessao)
+
+uniao = []
+for i in range(len(fingerprint_1)):
+    if fingerprint_1[i] == 0 and fingerprint_2[i] == 0:
+        uniao.append(0)
+    elif fingerprint_1[i] == 0 and fingerprint_2[i] == 1:
+        uniao.append(1)
+    elif fingerprint_1[i] == 1 and fingerprint_2[i] == 0:
+        uniao.append(1)
+    elif fingerprint_1[i] == 1 and fingerprint_2[i] == 1:
+        uniao.append(1)
+soma_uniao = sum(uniao)
+
+distancia = soma_intercessao / soma_uniao
+print(f"A distancia é {distancia}")
